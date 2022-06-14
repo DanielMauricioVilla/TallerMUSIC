@@ -1,0 +1,193 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ancho{
+    width: 1200px;
+}
+
+.largo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background:url(../images/angel-jimenez.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 80px;
+    
+}
+
+/* main */
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+}
+
+.parrafo{
+    font-size: 15px;
+}
+
+.anchoP{
+    width: 480px;
+}
+
+.titulos{
+    font-size: 54px;
+}
+
+
+.direccion{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.textoP{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+
+
+.img{
+    width: 400px;
+    height: 500px;
+}
+
+.boton{
+    width: 150px;
+    height: 45px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #f24242;
+    color: #ffffff;
+
+}
+
+
+.H2{
+    background: linear-gradient(to right, #fc442f, #f408f09f,#3c00ff);
+    -webkit-background-clip: text;
+    /* mix-blend-mode: screen;  */
+    color: transparent;
+    /* font-weight: bold; */
+    font-size: 54px;
+    
+}
+
+.fondoF{
+    width: 100%;
+    background: url(../images/john-raptis.png);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#textoF{
+    width: 44%;
+    /* background-color: #000dff; */
+    color: white;
+}
+/* footer */
+
+
+.fondoFinal{
+    background-color: #f24242;
+    font-size:10px;
+}
+.infoF{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    color: white;
+}
+
+.distanciaTTF{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 10px;
+    padding: 40px;
+
+}
+
+
+.pSeparador{
+    display: flex;
+    justify-content: center;
+}
+
+.separador{
+    width: 800px;
+    height: 1px;
+    background-color: #fa6b6b;
+}
+
+
+.espacio{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 530px;
+    color: #ffffff;
+    
+}
+
+.organizar{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
